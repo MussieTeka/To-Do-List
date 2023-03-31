@@ -141,10 +141,6 @@ li.selected {
   background-color: #fff4d4;
 }
 
-small {
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  margin-top: 15px;
-  color: #8c8c8c;
+li .fa-trash {
+  display: none;
 }

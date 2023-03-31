@@ -2,11 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
+    <title>To Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <p>This is Webpack Starter!</p>
-    <small>Lorem ipsum dolor sit amet.</small>
+    <h1>To Do List App</h1>
+    <div class="container">
+      <div class="to-do-title">
+        <p>Today's To Do List</p>
+        <i class="fa fa-refresh"></i>
+      </div>
+      <form id="form">
+        <input type="text" id="new-item" placeholder="Add to your list..." />
+        <i class="fa fa-level-down"></i>
+      </form>
+      <ul id="todo-list"></ul>
+      <p id="archive">Clear all completed</p>
+    </div>
+    <footer>
+      <p>&copy; 2023 To Do List App</p>
+    </footer>
   </body>
 </html>

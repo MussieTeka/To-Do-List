@@ -136,3 +136,11 @@ footer {
   bottom: 10px;
   left: 20px;
 }
+
+li.selected {
+  background-color: #fff4d4;
+}
+
+li .fa-trash {
+  display: none;
+}

@@ -13,6 +13,7 @@ const tasks = [
   { description: 'Buy groceries', completed: false, index: 0 },
   { description: 'Walk the dog', completed: false, index: 1 },
   { description: 'Finish homework', completed: true, index: 2 },
+  { description: 'Clean room', completed: false, index: 3 },
 ];
 
 // Render initial to-do tasks

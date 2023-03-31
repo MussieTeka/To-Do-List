@@ -102,7 +102,7 @@ Run npm start to start the application
 
 ```
 
-This will open the app in your browser at http://localhost:3000.
+This will open the app in your browser at http://localhost:8081/
 
 ### Run tests
 

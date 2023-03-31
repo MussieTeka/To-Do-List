@@ -95,7 +95,7 @@ Run npm install to install all dependencies
 
 ### Usage
 
-Run npm start to start the application
+Run npm start to start the application using webapp live server.
 
 ```sh
   npm start

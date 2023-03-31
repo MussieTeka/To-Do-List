@@ -1,63 +1,185 @@
+<a name="readme-top"></a>
+
 <div align="center">
   <img src="mussie.png" alt="logo" width="300px"  height="300px" />
   <br/>
-  <h3><b>Webpack App Starter</b></h3>
+  <h3><b>To Do List App</b></h3>
 </div>
 
-This is a simple starter project for building web applications using Webpack. It includes configuration files for development and production builds, as well as basic file structure for a typical web app.
+# 📗 Table of Contents
 
-## Getting Started
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-To get started with this project, clone the repository to your local machine and install the required dependencies:
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 To Do List App <a name="about-project"></a>
+
+This is a simple to-do list web application that allows users to add, edit, and delete tasks. The app is built using HTML, CSS, JavaScript, and runs on WebApp. The project is still on progress.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+- Client: HTML, CSS, JavaScript
+- Server: Not applicable
+- Database: Not applicable
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3.org/html/">HTML</a></li>
+    <li><a ref="https://www.w3.org/Style/CSS/">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JS</a></li>
+ 
+  </ul>
+</details>
+
+The project was built using the following technologies:
+
+- HTML
+- CSS
+- JavaScript
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Key Features <a name="key-features"></a>
+
+- **Create a task with a title and description**
+- **Mark tasks as complete or incomplete**
+- **Delete tasks**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy of the project up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project, you need to have a web browser installed on your computer.
+
+### Setup
+
+Clone this repository to your desired folder by running the following command:
 
 ```sh
- git clone git@github.com:MussieTeka/webpack.git
- cd webapp-starter
- npm install
+  clone git@github.com:MussieTeka/To-Do-List.git
+```
+
+### Install
+
+Run npm install to install all dependencies
+
+```sh
+  cd To-Do-List
+  npm install
 
 ```
 
-## Usage
+### Usage
 
-To start a development server, run the following command:
-
-Run Dev Server (Port 8080)
+Run npm start to start the application
 
 ```sh
   npm start
+
 ```
 
-This will start a local server at http://localhost:8080 and will automatically reload the page whenever you make changes to your code.
+This will open the app in your browser at http://localhost:8081/
 
-## Production
+### Run tests
 
-To create a production build, run the following command:
+To run tests for the To Do List App, follow these steps:
+
+- Open the command prompt or terminal on your computer.
+- Navigate to the project directory using the cd command.
+- Type the command npm run test and press enter.
 
 ```sh
-  npm run build
+ npm run test
 ```
 
-This will create a production-ready build of your application in the dist folder.
+### Deployment
 
-## Configuration
+You can deploy this project using any web hosting service of your choice.
 
-This starter project uses Webpack to bundle and optimize your code. The configuration file webpack.config.js includes the following:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- mode: Set to 'development' or 'production' depending on whether you are building for development or production.
-- entry: The entry point for your application. Change this to the path of your main JavaScript file.
-- devServer: Configuration for the development server, including the location of your static files.
-- plugins: Additional plugins to use with Webpack, such as the HtmlWebpackPlugin which generates an HTML file to serve your bundled JavaScript.
-- output: Configuration for where Webpack should output your bundled JavaScript file.
-- module: Configuration for how Webpack should handle different types of files. In this case, it includes a rule for handling CSS files using the css-loader and style-loader.
+<!-- AUTHORS -->
 
-## src directory
+## 👥 Author <a name="authors"></a>
 
-The source directory contains:
+This project was developed by:
 
-- index.html (main HTML)
-- style.css (main styles)
-- script.js (main JavaScript)
+👤 **Mussie Kahsay** - Developer
 
-## License
+- GitHub: [@MussieTeka](https://github.com/MussieTeka)
+- Twitter: [@mussieteka](https://twitter.com/mussieteka)
+- LinkedIn: [@mussieteka](https://linkedin.com/in/mussieteka)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+The work on this project is still in progress. Currently, users can add tasks to the list, mark tasks as complete, and delete tasks. However, some features are still under development, such as the ability to edit tasks and sort tasks by priority or due date.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please give it a star on GitHub.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the following resources and individuals for their help and inspiration:
+
+- <a href="https://www.microverse.org/">Microverse</a>, an online software engineering coding bootcamp.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Can I modify and redistribute this project?**
+
+  - Yes, you can modify and redistribute this project as long as you follow the terms of the MIT license.
+
+- **How can I contribute to this project?**
+
+  - Contributions, issues, and feature requests are welcome! You can check the issues page to see if there are any current issues or feature requests that you can work on. If not, feel free to submit a new issue or pull request. Before contributing, please read the CONTRIBUTING.md file for guidelines on how to contribute to this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

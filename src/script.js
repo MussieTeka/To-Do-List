@@ -2,14 +2,15 @@ import './style.css';
 /* eslint-disable import/no-cycle */
 import {
   addItem,
-  clearCompleted,
-  renderTasks,
   saveTasks,
   tasks,
   editTaskDescription,
   toggleItem,
   updateTasksIndexes,
+  clearCompleted,
 } from './next.js';
+
+import renderTasks from './interactive.js';
 
 // Select relevant HTML elements
 const form = document.getElementById('form');

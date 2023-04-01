@@ -3,6 +3,7 @@ import './style.css';
 import {
   todoList, input, deleteTask, editTask,
 } from './script.js';
+import renderTasks from './interactive.js';
 
 // Define tasks array and get tasks from local storage
 /* eslint-disable import/no-mutable-exports */
@@ -11,25 +12,6 @@ export let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 export function saveTasks() {
   localStorage.setItem('tasks', JSON.stringify(tasks));
-}
-
-export function renderTasks() {
-  // Clear current todo list
-  todoList.innerHTML = '';
-  // Render new todo list based on updated tasks array
-  tasks.forEach((task, index) => {
-    const li = document.createElement('li');
-    li.innerHTML = `
-      <input type="checkbox" ${
-  task.completed ? 'checked' : ''
-} data-index="${index}">
-      <span>${task.description}</span>
-      <i class="fa fa-ellipsis-v"></i>
-      <i class="fa fa-trash"></i>
-    `;
-    li.classList.toggle('completed', task.completed);
-    todoList.appendChild(li);
-  });
 }
 
 export function addItem(e) {
